@@ -1,0 +1,118 @@
+body{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+
+.navbar{
+    display: flex;
+
+
+}
+.navbar .one{
+    flex: 2;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+
+}
+
+.writing{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    padding: 70px;
+}
+.writing .text{
+    flex: 10;
+    margin-top: 40px;
+   
+}
+.writing .image{
+    flex: 10;
+   
+}
+.writing .social{
+    padding-top: 20px;
+    color: red;
+
+   
+}
+.writing .social h2{
+    margin: 10px;
+    
+   
+}
+.writing img{
+    width: 300px;
+}
+.writing h1{
+    color: blue;
+
+}
+
+.red{
+    background-color: red;
+    border: 0;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 20px;
+
+} 
+.blue{
+    background-color: blue;
+    border: 0;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+
+} 
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+   
+    
+}
+.about .apic{
+    width: 500px;
+}
+.about .atext{
+   width: 500px;
+}
+.about ul{
+    color: blue;
+}
+.about img{
+    width: 400px;
+}
+
+
+footer{
+    text-align: center;
+    color: blue;
+    font-size: larger;
+    padding: 30px;
+}
+
+@media screen and (max-width: 700px){
+
+    .writing .image{
+        display: none;
+       
+    } 
+    .writing .social{
+        display: none;
+       
+    } 
+
+    .writing{
+        padding: 0px;
+    }
+    
+}
